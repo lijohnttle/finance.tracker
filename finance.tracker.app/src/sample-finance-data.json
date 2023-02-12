@@ -1,0 +1,61 @@
+{
+    "accounts": [
+        {
+            "id": "f6c218ea-2b8b-4ab5-9db0-cebfa7144848",
+            "type": "cash",
+            "name": "My bank account",
+            "initial_balance": [
+                {
+                    "currency": "USD",
+                    "balance": 5000 
+                },
+                {
+                    "currency": "EUR",
+                    "balance": 3000 
+                }
+            ]
+        },
+        {
+            "id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "brokerage",
+            "name": "Investments",
+            "initial_balance": [
+                {
+                    "currency": "USD",
+                    "balance": 25000 
+                },
+                {
+                    "currency": "GBP",
+                    "balance": 10000 
+                }
+            ]
+        }
+    ],
+    "transaction_history": [
+        {
+            "account_id": "f6c218ea-2b8b-4ab5-9db0-cebfa7144848",
+            "type": "cash_funding",
+            "timestamp": "2023-01-01T16:00:00.000Z",
+            "currency": "USD",
+            "amount": 4000,
+            "fees": 0
+        },
+        {
+            "account_id": "f6c218ea-2b8b-4ab5-9db0-cebfa7144848",
+            "type": "cash_withdrawal",
+            "timestamp": "2023-01-03T12:00:00.000Z",
+            "currency": "USD",
+            "amount": 2000,
+            "fees": 5
+        },
+        {
+            "account_id": "f6c218ea-2b8b-4ab5-9db0-cebfa7144848",
+            "type": "cash_exchange",
+            "timestamp": "2023-01-03T16:00:00.000Z",
+            "from_currency": "USD",
+            "from_amount": 1000,
+            "to_currency": "GBP",
+            "to_amount": 830
+        }
+    ]
+}
