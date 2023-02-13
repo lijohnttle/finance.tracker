@@ -56,6 +56,72 @@
             "from_amount": 1000,
             "to_currency": "GBP",
             "to_amount": 830
+        },
+        {
+            "account_id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "stocks_buy",
+            "timestamp": "2023-01-04T16:00:00.000Z",
+            "symbol": "TSLA",
+            "market": "NASDAQ",
+            "price": "130",
+            "currency": "USD",
+            "quantity": 10.5,
+            "fees": "1"
+        },
+        {
+            "account_id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "stocks_sell",
+            "timestamp": "2023-01-15T16:00:00.000Z",
+            "symbol": "TSLA",
+            "market": "NASDAQ",
+            "price": "180",
+            "currency": "USD",
+            "quantity": 3,
+            "fees": "1"
+        },
+        {
+            "account_id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "fund_buy",
+            "timestamp": "2023-01-04T16:00:00.000Z",
+            "symbol": "SPY",
+            "market": "NYSEARCA",
+            "price": "390",
+            "currency": "USD",
+            "quantity": 10,
+            "fees": "1"
+        },
+        {
+            "account_id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "fund_sell",
+            "timestamp": "2023-01-15T16:00:00.000Z",
+            "symbol": "SPY",
+            "market": "NYSEARCA",
+            "price": "400",
+            "currency": "USD",
+            "quantity": 10,
+            "fees": "1"
+        },
+        {
+            "account_id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "call_options_buy",
+            "timestamp": "2023-01-04T16:00:00.000Z",
+            "symbol": "SPY 16JAN23 400",
+            "market": "NYSEARCA",
+            "price": "3.8",
+            "currency": "USD",
+            "quantity": 2,
+            "fees": "1"
+        },
+        {
+            "account_id": "4796f5cc-358e-4c61-b12e-592e41a20ce4",
+            "type": "call_options_sell",
+            "timestamp": "2023-01-16T16:00:00.000Z",
+            "symbol": "SPY 16JAN23 400",
+            "market": "NYSEARCA",
+            "price": "3.9",
+            "currency": "USD",
+            "quantity": 2,
+            "fees": "1"
         }
     ]
 }
